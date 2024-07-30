@@ -116,28 +116,28 @@ public abstract class BaseShop extends Menu {
             case BUY -> {
                 lore.add("§aAcheter pour §e" + item.getPrize() + "$ §7/u");
                 lore.add("§7");
-                lore.add("§8■ §7Click gauche pour §aacheter");
+                lore.add("§8■ §7Cliques gauche pour §aacheter");
             }
             case SELL -> {
                 lore.add("§cVendre pour §e" + item.getPrize() + "$ §7/u");
                 lore.add("§7");
-                lore.add("§8■ §7Click droit pour §cvendre");
+                lore.add("§8■ §7Cliques droit pour §cvendre");
             }
             case SELL_BUY -> {
                 lore.add("§aAcheter pour §e" + item.getPrize() + "$ §7/u");
                 lore.add("§cVendre pour §e" + (item.getPrize() / 2) + "$ §7/u");
                 lore.add("§7");
-                lore.add("§8■ §7Click gauche pour §aacheter");
-                lore.add("§8■ §7Click droit pour §cvendre");
+                lore.add("§8■ §7Cliques gauche pour §aacheter");
+                lore.add("§8■ §7Cliques droit pour §cvendre");
             }
             case GLASS_PANE, GLASS, TERRACOTTA -> {
                 lore.add("§aAcheter pour §e" + item.getPrize() + "$ §7/u");
                 lore.add("§7");
-                lore.add("§8■ §7Click droit pour plus de couleur.");
-                lore.add("§8■ §7Click gauche pour §aacheter.");
+                lore.add("§8■ §7Cliques droit pour plus de couleur.");
+                lore.add("§8■ §7Cliques gauche pour §aacheter.");
             }
             case WHITE_CONCRETE, WHITE_CONCRETE_POWDER, WHITE_WOOL -> {
-                lore.add("§8■ §7Click droit pour plus de couleur.");
+                lore.add("§8■ §7Cliques droit pour plus de couleur.");
             }
         }
         return lore;
